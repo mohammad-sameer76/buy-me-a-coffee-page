@@ -1,143 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Support My Work ☕</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f9f9f9;
-      color: #333;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
-    header {
-      padding: 2rem;
-    }
-    .about {
-      max-width: 600px;
-      margin: auto;
-      padding: 1rem;
-      line-height: 1.6;
-    }
-    .paypal {
-      margin: 2rem 0;
-    }
-    .paypal a {
-      background: #0070ba;
-      color: #fff;
-      padding: 12px 20px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-    .paypal a:hover {
-      background: #005c99;
-    }
-    .crypto-slider {
-      display: flex;
-      overflow: hidden;
-      width: 100%;
-      justify-content: center;
-      margin: 2rem 0;
-    }
-    .slide {
-      min-width: 280px;
-      max-width: 300px;
-      background: #fff;
-      margin: 0 10px;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      transition: transform 0.3s;
-    }
-    .slide:hover {
-      transform: translateY(-5px);
-    }
-    .crypto-address {
-      word-break: break-all;
-      font-size: 14px;
-      margin: 10px 0;
-    }
-    button.copy {
-      padding: 6px 12px;
-      border: none;
-      border-radius: 6px;
-      background: #333;
-      color: #fff;
-      cursor: pointer;
-    }
-    footer {
-      padding: 2rem;
-      font-size: 14px;
-      color: #777;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Support My Work ☕</h1>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Support My Work ☕</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Support My Work ☕</h1>
+    </header>
 
-  <section class="about">
-    <p>Hey there! 👋 I’m passionate about creating and sharing amazing anime stories and edits for all of you to enjoy ❤️</p>
-    <p>Your support means more than just a coffee — it directly helps me cover my education fees so I can keep learning, growing, and making even better content for this community.</p>
-    <p>Every contribution, big or small, helps me:<br>
-    🎓 Pay my college tuition and study materials<br>
-    📚 Learn new skills to improve my videos<br>
-    💻 Maintain the tools I need to create</p>
-  </section>
+    <section class="about">
+      <p>
+        Hey there! 👋 I’m passionate about creating and sharing amazing anime
+        stories and edits for all of you to enjoy ❤️
+      </p>
+      <p>
+        Your support means more than just a coffee — it directly helps me
+        learning, growing, and making even better content for this community.
+      </p>
+      <p>
+        Every contribution, big or small, helps me:<br />
+        🎓 Pay my college tuition and study materials<br />
+        📚 Learn new skills to improve my videos<br />
+        💻 Maintain the tools I need to create
+      </p>
+    </section>
 
-  <div class="paypal">
-    <a href="https://paypal.me/animestigram" target="_blank">Donate via PayPal</a>
-  </div>
-
-  <div class="crypto-slider" id="cryptoSlider">
-    <div class="slide">
-      <h3>Bitcoin (BTC)</h3>
-      <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=bc1pwey8km8dvs40ktklwsm9vym5dx2vl9w63axux534xk8a5gehpnysuvd6sp" alt="BTC QR">
-      <p class="crypto-address">bc1pwey8km8dvs40ktklwsm9vym5dx2vl9w63axux534xk8a5gehpnysuvd6sp</p>
-      <button class="copy" onclick="copyText('bc1pwey8km8dvs40ktklwsm9vym5dx2vl9w63axux534xk8a5gehpnysuvd6sp')">Copy</button>
+    <div class="paypal">
+      <a href="https://paypal.me/animestigram" target="_blank"
+        >Support via PayPal</a
+      >
     </div>
-    <div class="slide">
-      <h3>Ethereum (ETH)</h3>
-      <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=0xBFB1b350b347C243538EbB5087409cb57D0F6008" alt="ETH QR">
-      <p class="crypto-address">0xBFB1b350b347C243538EbB5087409cb57D0F6008</p>
-      <button class="copy" onclick="copyText('0xBFB1b350b347C243538EbB5087409cb57D0F6008')">Copy</button>
+
+    <div class="crypto-slider" id="cryptoSlider">
+      <div class="slide">
+        <h3>Bitcoin (BTC)</h3>
+        <img
+          src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=bc1pwey8km8dvs40ktklwsm9vym5dx2vl9w63axux534xk8a5gehpnysuvd6sp"
+          alt="BTC QR"
+        />
+        <p class="crypto-address">
+          bc1pwey8km8dvs40ktklwsm9vym5dx2vl9w63axux534xk8a5gehpnysuvd6sp
+        </p>
+        <button
+          class="copy"
+          onclick="copyText('bc1pwey8km8dvs40ktklwsm9vym5dx2vl9w63axux534xk8a5gehpnysuvd6sp')"
+        >
+          Copy
+        </button>
+      </div>
+      <div class="slide">
+        <h3>Ethereum (ETH)</h3>
+        <img
+          src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=0xBFB1b350b347C243538EbB5087409cb57D0F6008"
+          alt="ETH QR"
+        />
+        <p class="crypto-address">0xBFB1b350b347C243538EbB5087409cb57D0F6008</p>
+        <button
+          class="copy"
+          onclick="copyText('0xBFB1b350b347C243538EbB5087409cb57D0F6008')"
+        >
+          Copy
+        </button>
+      </div>
+      <div class="slide">
+        <h3>Solana (SOL)</h3>
+        <img
+          src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=5jhR4ZYTgASetKxJzJow1KapV1xKMKMQP724JvaAtU1E"
+          alt="SOL QR"
+        />
+        <p class="crypto-address">
+          5jhR4ZYTgASetKxJzJow1KapV1xKMKMQP724JvaAtU1E
+        </p>
+        <button
+          class="copy"
+          onclick="copyText('5jhR4ZYTgASetKxJzJow1KapV1xKMKMQP724JvaAtU1E')"
+        >
+          Copy
+        </button>
+      </div>
     </div>
-    <div class="slide">
-      <h3>Solana (SOL)</h3>
-      <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=5jhR4ZYTgASetKxJzJow1KapV1xKMKMQP724JvaAtU1E" alt="SOL QR">
-      <p class="crypto-address">5jhR4ZYTgASetKxJzJow1KapV1xKMKMQP724JvaAtU1E</p>
-      <button class="copy" onclick="copyText('5jhR4ZYTgASetKxJzJow1KapV1xKMKMQP724JvaAtU1E')">Copy</button>
-    </div>
-  </div>
 
-  <footer>
-    <p>Thank you for your support 💖</p>
-  </footer>
-
-  <script>
-    function copyText(text) {
-      navigator.clipboard.writeText(text).then(() => {
-        alert("Address copied to clipboard!");
-      });
-    }
-
-    // Auto-slide animation
-    const slider = document.getElementById('cryptoSlider');
-    let scrollAmount = 0;
-    setInterval(() => {
-      if (scrollAmount >= slider.scrollWidth - slider.clientWidth) {
-        scrollAmount = 0;
-      } else {
-        scrollAmount += 300;
-      }
-      slider.scrollTo({ left: scrollAmount, behavior: 'smooth' });
-    }, 3000);
-  </script>
-</body>
+    <footer>
+      <p>Thank you for your support 💖</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>

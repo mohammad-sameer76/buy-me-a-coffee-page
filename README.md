@@ -1,4 +1,4 @@
-# ☕ Support My Work
+# ☕ Buy me a Coffee
 
 A simple and clean **Buy me a Coffee page** where people can support my journey.  
 Built with **HTML, CSS, and JavaScript**, and deployed on **GitHub Pages**.

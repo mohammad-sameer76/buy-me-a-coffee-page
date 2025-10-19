@@ -16,6 +16,6 @@ Built with **HTML, CSS, and JavaScript**, and deployed on **GitHub Pages**.
 ---
 
 ## 🚀 Demo
-Live Site 👉 [https://mohammad-sameer76.github.io/support-my-work/](https://mohammad-sameer76.github.io/support-my-work-page/)
+Live Site 👉 [https://mohammad-sameer76.github.io/support-my-work/](https://mohammad-sameer76.github.io/buy-me-a-coffee-page/)
 
 ---
